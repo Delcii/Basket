@@ -1,0 +1,44 @@
+button {
+    background-color: white;
+    border: 2px solid #008CBA;
+    color: black; 
+    padding: 4px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    border: 2px solid #cccccc;
+    color: white;
+  }
+
+  body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  input {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-radius: 12px;
+    border: 2px solid gray;
+    width: 50px;
+    margin-bottom: 7px;
+  }
+
+  canvas {
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
